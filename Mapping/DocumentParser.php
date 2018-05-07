@@ -398,7 +398,7 @@ class DocumentParser
             'Document',
             'Property',
             'Embedded',
-            'Object',
+            'ObjectMouse',
             'Nested',
             'Id',
             'ParentDocument',
