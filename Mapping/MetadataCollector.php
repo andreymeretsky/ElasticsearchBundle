@@ -163,7 +163,7 @@ class MetadataCollector
              //       $bundle . ' has 2 same type names defined in the documents. ' .
               //      'Type names must be unique!'
                // );
-            }
+            //}
         }
 
         $this->enableCache && $this->cache->save($cacheName, $mappings);
