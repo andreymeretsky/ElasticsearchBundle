@@ -155,14 +155,14 @@ class MetadataCollector
                 continue;
             }
 
-            if (!array_key_exists($documentMapping['type'], $mappings)) {
+         //   if (!array_key_exists($documentMapping['type'], $mappings)) {
                 $documentMapping['bundle'] = $bundle;
                 $mappings = array_merge($mappings, [$documentMapping['type'] => $documentMapping]);
-            } else {
-                throw new \LogicException(
-                    $bundle . ' has 2 same type names defined in the documents. ' .
-                    'Type names must be unique!'
-                );
+           // } else {
+            //    throw new \LogicException(
+             //       $bundle . ' has 2 same type names defined in the documents. ' .
+              //      'Type names must be unique!'
+               // );
             }
         }
 
